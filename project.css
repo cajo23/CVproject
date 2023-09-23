@@ -1,0 +1,40 @@
+/*ul ta bort bullet points med list-style-type none.
+display inline flex så att items bara tar upp så mycket plats de behöver.
+gap mellanrum mellan items med 1rem för att den anpassar sig. */
+ul
+{
+  list-style-type: none;
+  display: inline-flex;
+  gap: 1rem;
+}
+
+/*border radius gör kanterna runt innehåll rundade.
+font size 1.5rem.
+background color på text.
+text-decoration none för att ta bort linjen under länk.
+textens färg vit*/
+a {
+  display: flex;
+  background-color:#7EAA92 ;
+  border-radius: 2px;
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+
+/*nav class display flex så att den lägger sig som ett block.
+justify content flex end flyttar navigationen till höger (slutet av sidan).
+padding 0 dvs ingen onödig utfyllnad.
+*/
+div.nav
+{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+body
+{
+    background-color: grey;
+}
