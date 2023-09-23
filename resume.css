@@ -42,3 +42,8 @@
         {
             border-radius: 50%;
         }
+
+        .footer
+        {
+            float: right;
+        }
