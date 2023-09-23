@@ -89,159 +89,135 @@ justify-content för att texten och bilden ska hamna någorlunda centrerat av si
   }
 
 
-  /*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
-  Utför bakgrundsfärg i body.
+/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+Utför bakgrundsfärg i body.
+Anpassad för mobiler.Från 319px och uppåt. max 480px eller lägre.
+Ändrar höjd på bild till 200px.
+Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+Ändrar h2 font storlek på "About me".
+Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+ändrar p font storlek texten.
+Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+Ändrar h1 font storlek på namnet och
+lägger till marginal för att namnet ska hamna rätt på sidan.
+Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+Ändrar font storlek på a som innehåller länkar till andra sidor.
+Så att de får plats på sidan
   */
 @media(min-width:319px) and (max-width:480px)
 {
  body{
   background-color: grey;
   }
-}
+
+  img{
+    height: 200px;
+    }
+  
+    h2{
+      font-size: 18px;
+      }
+
+      .align p{
+        font-size: 15px;
+         }
 
 
-/*Anpassad för mobiler.Från 319px och uppåt. max 480px eller lägre.
-Ändrar höjd på bild till 200px*/
-@media(min-width:319px) and (max-width:480px)
-{
- img{
-  height: 200px;
-  }
-}
+         .namn h1{
+          font-size: 25px;
+          margin-left: 22%
+          
+           }
 
-/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
-Ändrar h2 font storlek på "About me"*/
-@media(min-width:319px) and (max-width:480px)
-{
- h2{
-  font-size: 18px;
-  }
-}
-
-/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
-ändrar p font storlek texten*/
-@media(min-width:319px) and (max-width:480px)
-{
-  .align p{
- font-size: 15px;
-  }
-}
-
-/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
-Ändrar h1 font storlek på namnet och
-lägger till marginal för att namnet ska hamna rätt på sidan.*/
-@media(min-width:319px) and (max-width:480px)
-{
-  .namn h1{
- font-size: 25px;
- margin-left: 22%
- 
-  }
-}
-
-/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
-Ändrar font storlek på a som innehåller länkar till andra sidor.
-Så att de får plats på sidan.*/
-@media(min-width:319px) and (max-width:480px)
-{
-  a {
+           a {
     
-font-size: 13px;
-
-  }
+            font-size: 13px;
+            
+              }
 }
+
 
 
 
 /*Ipads/Tablets. Från 481px och uppåt. och max 1200px eller lägre.
 Utför backgrundsfärg i body.
-*/
+Anpassad för Ipad/Tablets. Från 481px och uppåt. och max 1200px eller lägre.
+Ändrar font size på a så att man ser navigationen bättre.
+Anpassad för ipad och tablets.Från 481px och uppåt. och max 1200px eller lägre.
+ Ändrar height på bilden så den inte tar upp hela sidan.
+ Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
+Ändrar font size på h2 "About me".
+Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
+Ändrar font size storlek på bara texten i p.
+Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
+Ändrar font size storlek på namnet i h1.
+Flyttar namnet i h1 med margin left så att den placeras bra på sidan.
+Ändrar font weight till tunnare.*/ 
+
 @media(min-width:481px) and (max-width:1200px)
 {
  body {
   background-color: grey;
   }
+
+  img {
+    height: 200px;
+    }
+
+    h2 {
+      font-size:20px;
+      }
+
+      .align p {
+        font-size:15px ;
+        }
+        .namn h1 {
+          font-size: 30px;
+          margin-left: 50%;
+          font-weight: lighter;
+          }
+
+          a {
+            font-size: 17px;
+            }
+
 }
 
-/*Anpassad för ipad och tablets.Från 481px och uppåt. och max 1200px eller lägre.
- Ändrar height på bilden så den inte tar upp hela sidan*/
-@media(min-width:481px) and (max-width:1200px)
-{
- img {
-  height: 200px;
-  }
-}
-
-/*Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
-Ändrar font size på h2 "About me"*/
-@media(min-width:481px) and (max-width:1200px)
-{
- h2 {
-  font-size:20px;
-  }
-}
-
-/*Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
-Ändrar font size storlek på bara texten i p.*/
-@media(min-width:481px) and (max-width:1200px)
-{
- .align p {
-  font-size:15px ;
-  }
-}
-
-/*Anpassad för ipad tablets.Från 481px och uppåt. och max 1200px eller lägre.
-Ändrar font size storlek på namnet i h1.
-Flyttar namnet i h1 med margin left så att den placeras bra på sidan.
-Ändrar font weight till tunnare.*/
-@media(min-width:481px) and (max-width:1200px)
-{
- .namn h1 {
-  font-size: 30px;
-  margin-left: 50%;
-  font-weight: lighter;
-  }
-}
-
-/*Anpassad för Ipad/Tablets. Från 481px och uppåt. och max 1200px eller lägre.
-Ändrar font size på a så att man ser navigationen bättre*/
-@media(min-width:481px) and (max-width:1200px)
-{
- a {
-  font-size: 17px;
-  }
-}
 
 /*Anpassad för Laptops.Från 1201px och uppåt. och max 1600px eller lägre.
  Jag byter bakgrundsfärg i body.
-*/
+Anpassad för Laptops.Från 1201px och uppåt. och max 1600px eller lägre.
+Jag ändrar font size i namnet h1.
+Jag gör texten tunnare med font weight, så att det ser mer bättre ut till storkeken(preferens).
+Jag lägger till en margin left så att namnet hamnar bra på sidan.
+*/ 
 @media(min-width: 1201px) and (max-width: 1600px)
 {
  body {
   background-color: gray;
   }
+
+  .namn h1 {
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-left: 30%;
+  
+    }
+
 }
 
-/*Anpassad för Laptops.Från 1201px och uppåt. och max 1600px eller lägre.
-Jag ändrar font size i namnet h1.
-Jag gör texten tunnare med font weight, så att det ser mer bättre ut till storkeken(preferens).
-Jag lägger till en margin left så att namnet hamnar bra på sidan.
-*/
-@media(min-width: 1201px) and (max-width: 1600px)
-{
- .namn h1 {
-  font-size: 3rem;
-  font-weight: lighter;
-  margin-left: 30%;
-
-  }
-}
 
 /*Anpassad för desktops.Från 1601px och uppåt.
 Jag ändrar font size så att man ser vad det står.
 Jag ändrar font weight till lighter så texten blir tunnare då det ser bättre ut till sidan
 (preferens).
 Jag lägger en margin left så att namnet inte flyttar för långt ut till sidan.
+Anpassad för Desktops. Från 1601px och uppåt.
+Ändrar font size på a, som innefattar navigationsknapparna.
+Anpassad till dektops. Från 1601px och uppåt.
+Ändrar font size på h2 "About me"
+Anpassad till desktops. Från 1601px och uppåt.
+Ändrar fontsize på paragrafen som ligger i align.
 */
 @media(min-width: 1601px)
 {
@@ -249,33 +225,18 @@ Jag lägger en margin left så att namnet inte flyttar för långt ut till sidan
   font-size: 4rem;
   font-weight: lighter;
   margin-left: 30%;
+          }
 
-  }
+  a {
+    font-size: 40px;
+    }
+
+    h2 {
+      font-size: 40px;
+      }
+
+      .align p {
+        font-size: 25px;
+        }
 }
 
-/*Anpassad för Desktops. Från 1601px och uppåt.
-Ändrar font size på a, som innefattar navigationsknapparna.*/
-@media(min-width: 1601px)
-{
- a {
-  font-size: 40px;
-  }
-}
-
-/*Anpassad till dektops. Från 1601px och uppåt.
-Ändrar font size på h2 "About me"*/
-@media(min-width: 1601px)
-{
- h2 {
-  font-size: 40px;
-  }
-}
-
-/*Anpassad till desktops. Från 1601px och uppåt.
-Ändrar fontsize på paragrafen som ligger i align.*/
-@media(min-width: 1601px)
-{
- .align p {
-  font-size: 25px;
-  }
-}
