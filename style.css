@@ -190,14 +190,11 @@ Så att de får plats på sidan
           
            }
 
-           a {
+          .nav a {
     
             font-size: 13px;
             
-              }
-
-              
-            
+              }        
 }
 
 
@@ -241,12 +238,9 @@ Flyttar namnet i h1 med margin left så att den placeras bra på sidan.
           font-weight: lighter;
           }
 
-          a {
+          .nav a {
             font-size: 17px;
-            }
-
-            
-          
+            }      
 }
 
 
@@ -267,11 +261,7 @@ Jag lägger till en margin left så att namnet hamnar bra på sidan.
     font-size: 3rem;
     font-weight: lighter;
     margin-left: 30%;
-  
-    }
-
-    
-  
+          }
 }
 
 
