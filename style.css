@@ -1,7 +1,7 @@
 /*ul ta bort bullet points med list-style-type none.
 display inline flex så att items bara tar upp så mycket plats de behöver.
 gap mellanrum mellan items med 1rem för att den anpassar sig. */
-ul
+.nav ul
 {
   list-style-type: none;
   display: inline-flex;
@@ -13,7 +13,7 @@ font size 1.5rem.
 background color på text.
 text-decoration none för att ta bort linjen under länk.
 textens färg vit*/
-a {
+.nav a {
   display: flex;
   background-color:#7EAA92 ;
   border-radius: 2px;
@@ -89,7 +89,19 @@ justify-content för att texten och bilden ska hamna någorlunda centrerat av si
   }
 
 
-/*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
+  /*Resume css*/
+  #pic
+  {
+    height: 200px;
+  }
+  
+  .footer
+  {
+      float: right;
+  }
+
+
+  /*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
 Utför bakgrundsfärg i body.
 Anpassad för mobiler.Från 319px och uppåt. max 480px eller lägre.
 Ändrar höjd på bild till 200px.
@@ -134,6 +146,9 @@ Så att de får plats på sidan
             font-size: 13px;
             
               }
+
+              
+            
 }
 
 
@@ -181,6 +196,8 @@ Flyttar namnet i h1 med margin left så att den placeras bra på sidan.
             font-size: 17px;
             }
 
+            
+          
 }
 
 
@@ -204,6 +221,8 @@ Jag lägger till en margin left så att namnet hamnar bra på sidan.
   
     }
 
+    
+  
 }
 
 
@@ -238,5 +257,8 @@ Anpassad till desktops. Från 1601px och uppåt.
       .align p {
         font-size: 25px;
         }
+
+       
+      
 }
 
