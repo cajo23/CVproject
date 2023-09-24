@@ -101,6 +101,55 @@ justify-content för att texten och bilden ska hamna någorlunda centrerat av si
   }
 
 
+
+  /*Portfolio project*/
+  /*Flyttar h1 till mitten*/
+ .textPort h1
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ /*Flyttar p till mitten*/
+ .textPort p
+ {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+
+ /*Flyttar knapp till mitten.
+ Sätter height så den hamnar längre ner från text*/
+ .centerBtn
+ {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  
+ }
+ 
+ /*texten blir vit bakgrund grön och vi tar bort hyperlink strecket under.
+ tar bort den stora border kanten runt knappen*/
+ button
+ {
+  padding: 0;
+  border: none;
+ }
+
+ /*Gör text vit, grön bakgrund ingen linje under link*/
+ button a
+ {
+  color: whitesmoke;
+  background-color: #7EAA92;
+  text-decoration: none;
+ }
+
+
+ 
+
+ 
   /*Anpassad för mobiler. Från 319px och uppåt. max 480px eller lägre.
 Utför bakgrundsfärg i body.
 Anpassad för mobiler.Från 319px och uppåt. max 480px eller lägre.
